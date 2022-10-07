@@ -4,33 +4,41 @@ El primer punto en el que tenemos que prestar atención es la dirección de corr
 
 La más simple consiste en mandar un correo en el que el nombre del remitente parezca confiable.
 
+``
 Facebook <johndoe@fakedomain.com>
 Action de sécurité requise
 To: your@gmail.com
+``
 
 2:
 
 Una variación de la técnica anterior consiste en mandar un correo en el que el nombre del remitente sea el e-mail de una cuenta de correo confiable.
 
+``
 security@facebook.com <spookycactus@mydarkemail.com>
 Action de sécurité requise
 To: your@gmail.com
+``
 
 3:
 
 Otra técnica muy común consiste en mandar el correo desde una cuenta de correo similar a un servicio legítimo.
  
+``
 Twitter <security@twittter.com>
 Password changed
 To: your@gmail.com
+``
 
 4:
 
 Otra técnica utilizada consiste en mandar un correo desde una cuenta de correo legítima, pero poniendo en la cabecera "Reply-To" una cuenta controlada por el atacante. De esta manera, cuando se clicke en responder al correo electrónico, la apicación de correo electrónico, por defecto, pondrá como destinatario el e-mail que aparece en la cabecera "Reply-To" y no el de la cabecera "From".
 
+``
 To: andrew.tennat@capsulecorp.com
 From: "Phoebe Larson" <phoebe.larson@capsulecorp.com>
 Reply-To: "Phoebe Larson" <phoebelarson9981@protonmail.com>
+``
 
 5:
 
