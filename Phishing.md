@@ -53,16 +53,20 @@ El segundo punto en el que tenemos que prestar atención es si el cuerpo del cor
 6:
 
 NOTA IMPORTANTE: nunca se debe clickar sobre un acortador de URL si no tiene la certeza absoluta de que es totalmente fiable. Existen servicios en Internet que te permiten mostrar una previsualización de la web destino antes de acceder a la misma.
+
 Para ver el redirecionamiento sin ir a la página del atacante, agregar + al final: https://bit.ly/3nlsrcx+
+
 Otra manera: `curl https://bit.ly/3nlsrcx -I -s | grep 'location:'`
 
 <p><a href="https://bit.ly/3nlsrcx">https://www.thebank.com/security/changepassword</a></p>
 
 7:
 
-El método clásico utilizado por los atacantes es incluir un fichero ejecutable (.exe)
+El método clásico utilizado por los atacantes es incluir un fichero ejecutable (.exe) como adjunto a un correo.
+
 NOTA IMPORTANTE: Virtualizar a la hora de descargar y manipular los archivos del mail
-changePassowrd.exe
+
+`changePassowrd.exe`
 
 8:
 
@@ -71,8 +75,8 @@ image.jpg.exe
 
 9:
 
-El método clásico utilizado por los atacantes es incluir un fichero ejecutable (.exe) como adjunto a un correo. Debido a que hoy en día cualquier solución antispam dispone de mecanismos para bloquear estos correos, el atacante puede mejorar la técnica utilizada y comprimir el fichero ejecutable en un fichero .zip para que el antivirus y filtros antispam de la víctima no pueda analizarlo.
+Debido a que hoy en día cualquier solución antispam dispone de mecanismos para bloquear estos correos, el atacante puede mejorar la técnica utilizada y comprimir el fichero ejecutable en un fichero .zip para que el antivirus y filtros antispam de la víctima no pueda analizarlo.
 
 10:
 
-Debido a que hoy en día cualquier solución antispam dispone de mecanismos para bloquear estos correos, el atacante puede mejorar la técnica utilizada y comprimir el fichero ejecutable en un fichero .zip para que el antivirus y filtros antispam de la víctima no pueda analizarlo.
+El atacante puede mejorar la técnica utilizada al agregar una contraseña al comprimir.
