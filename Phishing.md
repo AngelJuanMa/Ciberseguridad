@@ -19,11 +19,7 @@ https://haveibeenpwned.com/
 
 https://forensiksoft.com/email-forensics.html
 
-1:
-
-El primer punto en el que tenemos que prestar atención es la dirección de correo electrónico del remitente, ya que existen varias técnicas que persiguen hacer creer que un correo electrónico proviene de una fuente legítima y confiable, cuando en realidad no lo es.
-
-La más simple consiste en mandar un correo en el que el nombre del remitente parezca confiable.
+1: Correo electrónico del remitente
 
 ```
 Facebook <johndoe@fakedomain.com>
@@ -31,9 +27,7 @@ Action de sécurité requise
 To: your@gmail.com
 ```
 
-2:
-
-Una variación de la técnica anterior consiste en mandar un correo en el que el nombre del remitente sea el e-mail de una cuenta de correo confiable.
+2: Cuenta de correo confiable.
 
 ```
 security@facebook.com <spookycactus@mydarkemail.com>
@@ -41,9 +35,7 @@ Action de sécurité requise
 To: your@gmail.com
 ```
 
-3:
-
-Otra técnica muy común consiste en mandar el correo desde una cuenta de correo similar a un servicio legítimo.
+3: Correo similar a un servicio legítimo.
  
 ```
 Twitter <security@twittter.com>
