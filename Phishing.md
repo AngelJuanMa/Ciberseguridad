@@ -11,7 +11,11 @@ olevba -c /path/to/document #Extract macros
 
 ## Emails
 
-Software forense para emails:
+### Comprobar si el correo fue comprometido:
+
+https://haveibeenpwned.com/
+
+### Software forense para emails:
 
 https://forensiksoft.com/email-forensics.html
 
