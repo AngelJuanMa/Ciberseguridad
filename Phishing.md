@@ -1,5 +1,16 @@
 Software forense para emails:
 
+## Macros en Excel
+
+https://book.hacktricks.xyz/generic-methodologies-and-resources/basic-forensic-methodology/specific-software-file-type-tricks/office-file-analysis
+
+```bash
+sudo pip3 install -U oletools
+olevba -c /path/to/document #Extract macros
+```
+
+## Emails
+
 https://forensiksoft.com/email-forensics.html
 
 1:
